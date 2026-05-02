@@ -1,0 +1,8 @@
+fcd = require("libraries/FCD")
+flux = require("libraries/flux")
+sti = require("libraries/sti")
+discordRPC = require("libraries/RPC/discordRPC")
+require("src/draw")
+require("src/update")
+require("src/onLoad/defineAll")
+require("src/game/game")
